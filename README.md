@@ -26,15 +26,15 @@ The following steps will get you started with the MPNet Planner.
    ```
    git clone https://github.com/venkateshprasad23/MPNet-Documentation.git
    ```
-
-2. Build the image required by running the DOckerfile provided in the repository. \
+2. Now, head to https://pytorch.org/ and download the correct version of LibTorch as listed above. Move it to the data/ folder.
+3. Build the image required by running the DOckerfile provided in the repository. \
    Open a terminal and type in the following command in the directory containing the Dockerfile.
    Note : this may take quite some time.
    
    ```
    sudo docker build - < Dockerfile -t mpnet_plan
    ```
-3. Now spawn off a container using this image. Type in the following command  
+4. Now spawn off a container using this image. Type in the following command  
    
    ```
    sudo docker run -it \
@@ -49,7 +49,7 @@ The following steps will get you started with the MPNet Planner.
 	bash
    ```
    
- 4. In order to install IpOPT, follow the steps below.
+ 5. In order to install IpOPT, follow the steps below.
    
    ```
    cp install_ipopt.sh /opt/ipopt
