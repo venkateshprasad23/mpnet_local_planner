@@ -1,0 +1,2 @@
+mpnet_local_planner:racecar_simulator
+-DCATKIN_DEVEL_PREFIX=/root/project/devel -DCMAKE_INSTALL_PREFIX=/root/project/install -G Unix Makefiles

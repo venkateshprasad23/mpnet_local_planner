@@ -1,0 +1,796 @@
+[rosmaster.main][INFO] 2020-06-16 20:38:03,531: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-06-16 20:38:03,531: Starting ROS Master Node
+[xmlrpc][INFO] 2020-06-16 20:38:03,531: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-06-16 20:38:03,532: Started XML-RPC server [http://3ff6fdf48960:11311/]
+[xmlrpc][INFO] 2020-06-16 20:38:03,532: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-06-16 20:38:03,532: Master initialized: port[11311], uri[http://3ff6fdf48960:11311/]
+[rosmaster.master][INFO] 2020-06-16 20:38:03,565: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:03,566: +PARAM [/roslaunch/uris/host_3ff6fdf48960__44997] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,059: +PARAM [/move_base/global_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,059: +PARAM [/racecar_simulator/scan_field_of_view] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,059: +PARAM [/racecar_simulator/pose_rviz_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,060: +PARAM [/move_base/local_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,060: +PARAM [/racecar_simulator/joy_angle_axis] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,060: +PARAM [/move_base/controller_patience] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,060: +PARAM [/racecar_simulator/scan_beams] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,061: +PARAM [/racecar_simulator/map_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,061: +PARAM [/racecar_simulator/joy_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,062: +PARAM [/racecar_simulator/drive_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,062: +SERVICE [/rosout/get_loggers] /rosout http://3ff6fdf48960:34355/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,062: +PARAM [/racecar_simulator/joy_speed_axis] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,063: +SERVICE [/rosout/set_logger_level] /rosout http://3ff6fdf48960:34355/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,063: +PARAM [/move_base/local_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,063: +PARAM [/racecar_simulator/odom_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,063: +PARAM [/racecar_simulator/scan_distance_to_base_link] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,064: +PUB [/rosout_agg] /rosout http://3ff6fdf48960:34355/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,064: +PARAM [/move_base/collision_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,064: +PARAM [/racecar_simulator/update_pose_rate] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,064: +PARAM [/racecar_simulator/broadcast_transform] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,065: +PARAM [/move_base/collision_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,065: +PARAM [/move_base/clearing_rotation_allowed] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,065: +PARAM [/racecar_simulator/scan_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,066: +PARAM [/move_base/MpnetLocalPlanner/yaw_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,066: +PARAM [/racecar_simulator/wheelbase] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,066: +SUB [/rosout] /rosout http://3ff6fdf48960:34355/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/move_base/local_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/move_base/local_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/move_base/global_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/move_base/local_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/move_base/collision_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/move_base/collision_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/move_base/global_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/move_base/local_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/racecar_simulator/joy] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,067: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/move_base/global_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/racecar_simulator/max_steering_angle] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/racecar_simulator/distance_transform_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/move_base/local_costmap/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/racecar_simulator/scan_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/move_base/global_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/move_base/local_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/racecar_simulator/base_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/racecar_simulator/map_free_threshold] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/move_base/global_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,068: +PARAM [/racecar_simulator/joy_max_speed] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/racecar_simulator/map_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/move_base/local_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/move_base/local_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/move_base/global_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/racecar_simulator/odom_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/move_base/base_local_planner] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/racecar_simulator/scan_std_dev] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/move_base/MpnetLocalPlanner/xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/racecar_simulator/pose_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/move_base/local_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/move_base/collision_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,069: +PARAM [/move_base/local_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,070: +PARAM [/move_base/local_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,070: +PARAM [/move_base/collision_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,070: +PARAM [/racecar_simulator/max_speed] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,070: +PARAM [/move_base/controller_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,070: +PARAM [/move_base/collision_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,070: +PARAM [/move_base/MpnetLocalPlanner/xy_replan_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2020-06-16 20:38:04,533: +PUB [/rosout] /map_server http://3ff6fdf48960:39075/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,533: +SERVICE [/map_server/get_loggers] /map_server http://3ff6fdf48960:39075/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,534: +SERVICE [/map_server/set_logger_level] /map_server http://3ff6fdf48960:39075/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,538: +SERVICE [/static_map] /map_server http://3ff6fdf48960:39075/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,539: +PUB [/map_metadata] /map_server http://3ff6fdf48960:39075/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,539: +PUB [/map] /map_server http://3ff6fdf48960:39075/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,633: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/']
+[rosmaster.master][INFO] 2020-06-16 20:38:04,654: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:04,988: +PUB [/rosout] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,988: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,989: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,992: +PUB [/tf] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,992: +PUB [/tf_static] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:38:04,996: +SUB [/joint_states] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,033: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/']
+[rosmaster.master][INFO] 2020-06-16 20:38:05,053: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:05,448: +PUB [/rosout] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,449: +SERVICE [/racecar_simulator/get_loggers] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,449: +SERVICE [/racecar_simulator/set_logger_level] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,450: +PUB [/tf] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,454: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:39313/']
+[rosmaster.master][INFO] 2020-06-16 20:38:05,455: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:39313/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:05,459: +PUB [/scan] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,459: +PUB [/odom] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,461: +SUB [/joy] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,464: +SUB [/drive] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,466: +SUB [/map] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,468: +SUB [/pose] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,470: +SUB [/initialpose] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,908: +PUB [/rosout] /static_tf/base_to_laser_tf2 http://3ff6fdf48960:33041/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,909: +SERVICE [/static_tf/base_to_laser_tf2/get_loggers] /static_tf/base_to_laser_tf2 http://3ff6fdf48960:33041/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,910: +SERVICE [/static_tf/base_to_laser_tf2/set_logger_level] /static_tf/base_to_laser_tf2 http://3ff6fdf48960:33041/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,910: +PUB [/tf_static] /static_tf/base_to_laser_tf2 http://3ff6fdf48960:33041/
+[rosmaster.master][INFO] 2020-06-16 20:38:05,936: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:39313/', 'http://3ff6fdf48960:33041/']
+[rosmaster.master][INFO] 2020-06-16 20:38:05,956: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:39313/', 'http://3ff6fdf48960:33041/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:06,372: +PUB [/rosout] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,373: +SERVICE [/move_base/get_loggers] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,373: +SERVICE [/move_base/set_logger_level] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,376: +SUB [/tf] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,378: +SUB [/tf_static] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,416: +PUB [/cmd_vel] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,417: +PUB [/move_base/current_goal] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,417: +PUB [/move_base/goal] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,419: +SUB [/move_base_simple/goal] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,457: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:39313/', 'http://3ff6fdf48960:33041/', 'http://3ff6fdf48960:36595/']
+[rosmaster.master][INFO] 2020-06-16 20:38:06,458: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:39313/', 'http://3ff6fdf48960:33041/', 'http://3ff6fdf48960:36595/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:06,665: +PARAM [/move_base/global_costmap/obstacle_layer/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,666: -PARAM [/move_base/global_costmap/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,667: +PARAM [/move_base/global_costmap/obstacle_layer/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,667: -PARAM [/move_base/global_costmap/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,669: +PARAM [/move_base/global_costmap/plugins] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,677: +SUB [/map] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,901: +PUB [/rosout] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,901: +SERVICE [/rviz/get_loggers] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,902: +SERVICE [/rviz/set_logger_level] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,958: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:39313/', 'http://3ff6fdf48960:33041/', 'http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:38:06,959: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:39313/', 'http://3ff6fdf48960:33041/', 'http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:06,978: +SERVICE [/move_base/global_costmap/static_layer/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,978: +PUB [/move_base/global_costmap/static_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,979: +PUB [/move_base/global_costmap/static_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,980: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,980: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,983: +SERVICE [/move_base/global_costmap/obstacle_layer/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,983: +PUB [/move_base/global_costmap/obstacle_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,984: +PUB [/move_base/global_costmap/obstacle_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,985: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,986: +PARAM [/move_base/global_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,986: +PARAM [/move_base/global_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,987: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,987: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,987: +PARAM [/move_base/global_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,988: +PARAM [/move_base/global_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,988: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,990: +SERVICE [/move_base/global_costmap/inflation_layer/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,990: +PUB [/move_base/global_costmap/inflation_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,990: +PUB [/move_base/global_costmap/inflation_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,992: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,992: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,993: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,993: +PARAM [/move_base/global_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,993: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,994: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,995: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,995: +PARAM [/move_base/global_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:06,998: +SUB [/move_base/global_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:06,999: +PUB [/move_base/global_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,000: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,001: +PUB [/move_base/global_costmap/costmap] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,001: +PUB [/move_base/global_costmap/costmap_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,002: +SERVICE [/move_base/global_costmap/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,002: +PUB [/move_base/global_costmap/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,003: +PUB [/move_base/global_costmap/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,007: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,007: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,008: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,008: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,008: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,009: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,009: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,010: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,010: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,010: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,011: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,011: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,012: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,012: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,012: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,013: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,013: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,014: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,014: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,015: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,015: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,015: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,017: +PUB [/move_base/NavfnROS/plan] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,019: +SERVICE [/move_base/NavfnROS/make_plan] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,024: +PARAM [/move_base/local_costmap/obstacle_layer/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,025: -PARAM [/move_base/local_costmap/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,026: +PARAM [/move_base/local_costmap/obstacle_layer/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,026: -PARAM [/move_base/local_costmap/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,028: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,029: -PARAM [/move_base/local_costmap/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,029: +PARAM [/move_base/local_costmap/plugins] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,059: publisherUpdate[/move_base/global_costmap/footprint] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:36595/']
+[rosmaster.master][INFO] 2020-06-16 20:38:07,081: publisherUpdate[/move_base/global_costmap/footprint] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:36595/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:07,136: +SERVICE [/move_base/local_costmap/static_layer/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,137: +PUB [/move_base/local_costmap/static_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,137: +PUB [/move_base/local_costmap/static_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,138: +PARAM [/move_base/local_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,139: +PARAM [/move_base/local_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,142: +SERVICE [/move_base/local_costmap/obstacle_layer/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,142: +PUB [/move_base/local_costmap/obstacle_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,142: +PUB [/move_base/local_costmap/obstacle_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,144: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,144: +PARAM [/move_base/local_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,145: +PARAM [/move_base/local_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,145: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,146: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,146: +PARAM [/move_base/local_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,146: +PARAM [/move_base/local_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,147: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,148: +SERVICE [/move_base/local_costmap/inflation_layer/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,148: +PUB [/move_base/local_costmap/inflation_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,149: +PUB [/move_base/local_costmap/inflation_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,150: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,150: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,151: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,151: +PARAM [/move_base/local_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,151: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,152: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,152: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,153: +PARAM [/move_base/local_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,155: +SUB [/move_base/local_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,155: +PUB [/move_base/local_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,156: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,156: +PUB [/move_base/local_costmap/costmap] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,157: +PUB [/move_base/local_costmap/costmap_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,157: +SERVICE [/move_base/local_costmap/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,157: +PUB [/move_base/local_costmap/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,158: +PUB [/move_base/local_costmap/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,159: publisherUpdate[/move_base/local_costmap/footprint] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:36595/']
+[rosmaster.master][INFO] 2020-06-16 20:38:07,163: +PARAM [/move_base/local_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,164: +PARAM [/move_base/local_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,164: +PARAM [/move_base/local_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,165: +PARAM [/move_base/local_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,165: +PARAM [/move_base/local_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,165: +PARAM [/move_base/local_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,166: +PARAM [/move_base/local_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,166: +PARAM [/move_base/local_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,167: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,167: +PARAM [/move_base/local_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,168: +PARAM [/move_base/local_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,168: +PARAM [/move_base/local_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,169: +PARAM [/move_base/local_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,169: +PARAM [/move_base/local_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,170: +PARAM [/move_base/local_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,170: +PARAM [/move_base/local_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,171: +PARAM [/move_base/local_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,171: +PARAM [/move_base/local_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,172: +PARAM [/move_base/local_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,172: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,172: +PARAM [/move_base/local_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,173: +PARAM [/move_base/local_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,188: publisherUpdate[/move_base/local_costmap/footprint] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:36595/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:07,343: +SUB [/odom] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,344: +PUB [/move_base/MpnetLocalPlanner/local_plan] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,345: +PUB [/move_base/MpnetLocalPlanner/global_plan] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,351: +PARAM [/move_base/collision_costmap/obstacle_layer/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,352: -PARAM [/move_base/collision_costmap/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,353: +PARAM [/move_base/collision_costmap/obstacle_layer/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,353: -PARAM [/move_base/collision_costmap/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,355: +PARAM [/move_base/collision_costmap/plugins] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,408: +SUB [/tf] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,411: +SUB [/tf_static] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,446: +PUB [/initialpose] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,447: +PUB [/goal] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,455: +SUB [/map] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,457: +SUB [/map_updates] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,460: publisherUpdate[/initialpose] -> http://3ff6fdf48960:39313/ ['http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:38:07,463: +SERVICE [/move_base/collision_costmap/static_layer/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,464: +PUB [/move_base/collision_costmap/static_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,465: +SUB [/move_base/MpnetLocalPlanner/global_plan] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,465: +PUB [/move_base/collision_costmap/static_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,467: +PARAM [/move_base/collision_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,468: +PARAM [/move_base/collision_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,469: +SUB [/move_base/MpnetLocalPlanner/local_plan] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,473: +SERVICE [/move_base/collision_costmap/obstacle_layer/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,473: +SUB [/move_base_simple/goal] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,474: +PUB [/move_base/collision_costmap/obstacle_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,475: +PUB [/move_base/collision_costmap/obstacle_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,477: +SUB [/move_base/local_costmap/costmap] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,478: +PARAM [/move_base/collision_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,479: +PARAM [/move_base/collision_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,480: +PARAM [/move_base/collision_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,480: +SUB [/move_base/local_costmap/costmap_updates] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,481: +PARAM [/move_base/collision_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,482: +PARAM [/move_base/collision_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,482: -PUB [/goal] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,482: +PARAM [/move_base/collision_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,483: -PUB [/initialpose] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,483: +PARAM [/move_base/collision_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,484: +PARAM [/move_base/collision_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,485: +SERVICE [/move_base/collision_costmap/inflation_layer/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,486: +PUB [/move_base/collision_costmap/inflation_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,486: +PUB [/move_base/collision_costmap/inflation_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,487: +PUB [/initialpose] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,488: +PUB [/goal] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,489: +PARAM [/move_base/collision_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,489: +PUB [/move_base_simple/goal] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,490: +PARAM [/move_base/collision_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,490: -PUB [/goal] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,491: +PARAM [/move_base/collision_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,491: +PUB [/clicked_point] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,492: +PARAM [/move_base/collision_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,492: +PARAM [/move_base/collision_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,493: +PARAM [/move_base/collision_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,493: +PARAM [/move_base/collision_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,494: +PARAM [/move_base/collision_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,497: +SUB [/move_base/collision_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,498: +PUB [/move_base/collision_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,500: publisherUpdate[/initialpose] -> http://3ff6fdf48960:39313/ ['http://3ff6fdf48960:46377/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:07,501: +PARAM [/move_base/collision_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,501: publisherUpdate[/initialpose] -> http://3ff6fdf48960:39313/ []
+[rosmaster.master][INFO] 2020-06-16 20:38:07,502: +PUB [/move_base/collision_costmap/costmap] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,502: publisherUpdate[/initialpose] -> http://3ff6fdf48960:39313/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:07,503: +PUB [/move_base/collision_costmap/costmap_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,503: publisherUpdate[/initialpose] -> http://3ff6fdf48960:39313/ ['http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:38:07,504: +SERVICE [/move_base/collision_costmap/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,504: publisherUpdate[/initialpose] -> http://3ff6fdf48960:39313/ ['http://3ff6fdf48960:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:07,505: publisherUpdate[/move_base_simple/goal] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:38:07,505: +PUB [/move_base/collision_costmap/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,506: +PUB [/move_base/collision_costmap/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,510: +PARAM [/move_base/collision_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,511: +PARAM [/move_base/collision_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,511: +PARAM [/move_base/collision_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,512: +PARAM [/move_base/collision_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,512: +PARAM [/move_base/collision_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,513: +PARAM [/move_base/collision_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,513: +PARAM [/move_base/collision_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,514: +PARAM [/move_base/collision_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,514: +PARAM [/move_base/collision_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,515: +PARAM [/move_base/collision_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,515: +PARAM [/move_base/collision_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,516: +PARAM [/move_base/collision_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,516: +PARAM [/move_base/collision_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,517: +PARAM [/move_base/collision_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,517: +PARAM [/move_base/collision_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,518: +PARAM [/move_base/collision_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,518: +PARAM [/move_base/collision_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,519: +PARAM [/move_base/collision_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,519: +PARAM [/move_base/collision_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,520: +PARAM [/move_base/collision_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,521: +PARAM [/move_base/collision_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,521: +PARAM [/move_base/collision_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:07,525: +SERVICE [/rviz/reload_shaders] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,525: +SERVICE [/rviz/load_config] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,526: +SERVICE [/rviz/save_config] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:38:07,582: publisherUpdate[/move_base_simple/goal] -> http://3ff6fdf48960:46377/ ['http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:38:07,613: publisherUpdate[/move_base_simple/goal] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:46377/']: sec=0.11, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:07,613: publisherUpdate[/move_base/collision_costmap/footprint] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:36595/']
+[rosmaster.master][INFO] 2020-06-16 20:38:07,614: publisherUpdate[/move_base/collision_costmap/footprint] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:36595/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:07,640: publisherUpdate[/move_base_simple/goal] -> http://3ff6fdf48960:46377/ ['http://3ff6fdf48960:46377/']: sec=0.06, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:38:09,778: +SERVICE [/move_base/make_plan] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,780: +SERVICE [/move_base/clear_costmaps] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,782: +PARAM [/move_base/conservative_reset/reset_distance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,784: +PARAM [/move_base/aggressive_reset/reset_distance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,803: +PUB [/move_base/result] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,805: +PUB [/move_base/feedback] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,806: +PUB [/move_base/status] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,817: +SUB [/move_base/goal] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,823: +SUB [/move_base/cancel] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,825: +SERVICE [/move_base/set_parameters] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,827: +PUB [/move_base/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,828: +PUB [/move_base/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:38:09,845: +PARAM [/move_base/base_global_planner] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,846: +PARAM [/move_base/base_local_planner] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,848: +PARAM [/move_base/planner_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,849: +PARAM [/move_base/controller_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,851: +PARAM [/move_base/planner_patience] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,852: +PARAM [/move_base/controller_patience] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,854: +PARAM [/move_base/max_planning_retries] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,855: +PARAM [/move_base/conservative_reset_dist] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,856: +PARAM [/move_base/recovery_behavior_enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,858: +PARAM [/move_base/clearing_rotation_allowed] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,859: +PARAM [/move_base/shutdown_costmaps] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,861: +PARAM [/move_base/oscillation_timeout] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,862: +PARAM [/move_base/oscillation_distance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,863: +PARAM [/move_base/restore_defaults] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,865: +PARAM [/move_base/base_global_planner] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,866: +PARAM [/move_base/base_local_planner] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,868: +PARAM [/move_base/planner_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,869: +PARAM [/move_base/controller_frequency] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,870: +PARAM [/move_base/planner_patience] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,872: +PARAM [/move_base/controller_patience] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,873: +PARAM [/move_base/max_planning_retries] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,875: +PARAM [/move_base/conservative_reset_dist] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,876: +PARAM [/move_base/recovery_behavior_enabled] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,877: +PARAM [/move_base/clearing_rotation_allowed] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,878: +PARAM [/move_base/shutdown_costmaps] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,879: +PARAM [/move_base/oscillation_timeout] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,880: +PARAM [/move_base/oscillation_distance] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:38:09,881: +PARAM [/move_base/restore_defaults] by /move_base
+[rosmaster.master][INFO] 2020-06-16 20:39:00,624: -PUB [/rosout] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,625: -PUB [/tf] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,625: -PUB [/scan] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,626: -PUB [/odom] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,626: -SUB [/joy] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,627: -SUB [/drive] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,627: -SUB [/map] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,628: -SUB [/pose] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,628: -SUB [/initialpose] /racecar_simulator http://3ff6fdf48960:39313/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,629: -SERVICE [/racecar_simulator/get_loggers] /racecar_simulator rosrpc://3ff6fdf48960:38965
+[rosmaster.master][INFO] 2020-06-16 20:39:00,629: -SERVICE [/racecar_simulator/set_logger_level] /racecar_simulator rosrpc://3ff6fdf48960:38965
+[rosmaster.master][INFO] 2020-06-16 20:39:00,630: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:33041/', 'http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:39:00,631: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:39075/', 'http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:33041/', 'http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,631: publisherUpdate[/tf] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:44437/']
+[rosmaster.master][INFO] 2020-06-16 20:39:00,632: publisherUpdate[/tf] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:44437/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,632: publisherUpdate[/tf] -> http://3ff6fdf48960:46377/ ['http://3ff6fdf48960:44437/']
+[rosmaster.master][INFO] 2020-06-16 20:39:00,632: publisherUpdate[/tf] -> http://3ff6fdf48960:46377/ ['http://3ff6fdf48960:44437/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,632: publisherUpdate[/odom] -> http://3ff6fdf48960:36595/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,633: publisherUpdate[/odom] -> http://3ff6fdf48960:36595/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,696: -PUB [/rosout] /map_server http://3ff6fdf48960:39075/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,697: -PUB [/map_metadata] /map_server http://3ff6fdf48960:39075/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,697: -PUB [/rosout] /static_tf/base_to_laser_tf2 http://3ff6fdf48960:33041/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,698: -PUB [/rosout] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,699: -PUB [/map] /map_server http://3ff6fdf48960:39075/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,699: -PUB [/tf_static] /static_tf/base_to_laser_tf2 http://3ff6fdf48960:33041/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,700: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:33041/', 'http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:39:00,701: -PUB [/tf] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,701: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:33041/', 'http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,702: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:39:00,701: -SERVICE [/map_server/get_loggers] /map_server rosrpc://3ff6fdf48960:57167
+[rosmaster.master][INFO] 2020-06-16 20:39:00,702: -SERVICE [/static_tf/base_to_laser_tf2/get_loggers] /static_tf/base_to_laser_tf2 rosrpc://3ff6fdf48960:36049
+[rosmaster.master][INFO] 2020-06-16 20:39:00,703: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:44437/', 'http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,703: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:39:00,703: -PUB [/tf_static] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,704: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:36595/', 'http://3ff6fdf48960:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,705: publisherUpdate[/map] -> http://3ff6fdf48960:36595/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,705: -SERVICE [/map_server/set_logger_level] /map_server rosrpc://3ff6fdf48960:57167
+[rosmaster.master][INFO] 2020-06-16 20:39:00,706: publisherUpdate[/map] -> http://3ff6fdf48960:36595/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,706: -SERVICE [/static_tf/base_to_laser_tf2/set_logger_level] /static_tf/base_to_laser_tf2 rosrpc://3ff6fdf48960:36049
+[rosmaster.master][INFO] 2020-06-16 20:39:00,706: publisherUpdate[/map] -> http://3ff6fdf48960:46377/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,709: -SUB [/joint_states] /robot_state_publisher http://3ff6fdf48960:44437/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,710: -SERVICE [/static_map] /map_server rosrpc://3ff6fdf48960:57167
+[rosmaster.master][INFO] 2020-06-16 20:39:00,710: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://3ff6fdf48960:59493
+[rosmaster.master][INFO] 2020-06-16 20:39:00,711: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://3ff6fdf48960:59493
+[rosmaster.master][INFO] 2020-06-16 20:39:00,733: publisherUpdate[/tf_static] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:44437/']
+[rosmaster.master][INFO] 2020-06-16 20:39:00,734: -PUB [/rosout] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,734: publisherUpdate[/tf_static] -> http://3ff6fdf48960:36595/ ['http://3ff6fdf48960:44437/']: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,735: -PUB [/cmd_vel] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,735: publisherUpdate[/tf] -> http://3ff6fdf48960:36595/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,736: -PUB [/move_base/current_goal] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,736: -PUB [/move_base/goal] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,737: -PUB [/move_base/global_costmap/static_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,737: -PUB [/move_base/global_costmap/static_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,737: -PUB [/move_base/global_costmap/obstacle_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,738: -PUB [/move_base/global_costmap/obstacle_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,738: -PUB [/move_base/global_costmap/inflation_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,739: -PUB [/move_base/global_costmap/inflation_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,739: -PUB [/move_base/global_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,740: -PUB [/move_base/global_costmap/costmap] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,740: publisherUpdate[/map] -> http://3ff6fdf48960:46377/ []: sec=0.03, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,740: -PUB [/rosout] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,741: -PUB [/move_base/global_costmap/costmap_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,741: -PUB [/initialpose] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,742: -PUB [/move_base/global_costmap/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,743: -PUB [/move_base_simple/goal] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,743: -PUB [/move_base/global_costmap/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,744: -PUB [/clicked_point] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,744: publisherUpdate[/tf] -> http://3ff6fdf48960:36595/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,745: -PUB [/move_base/NavfnROS/plan] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,745: -SUB [/tf] /rviz http://3ff6fdf48960:46377/
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,746: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,746: -PUB [/move_base/local_costmap/static_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,747: publisherUpdate[/tf_static] -> http://3ff6fdf48960:46377/ ['http://3ff6fdf48960:44437/']
+[rosmaster.master][INFO] 2020-06-16 20:39:00,748: -SUB [/tf_static] /rviz http://3ff6fdf48960:46377/
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,748: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,748: publisherUpdate[/tf_static] -> http://3ff6fdf48960:46377/ ['http://3ff6fdf48960:44437/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,748: -PUB [/move_base/local_costmap/static_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,749: publisherUpdate[/tf_static] -> http://3ff6fdf48960:36595/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,749: -SUB [/map] /rviz http://3ff6fdf48960:46377/
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,750: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,750: publisherUpdate[/tf_static] -> http://3ff6fdf48960:36595/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,751: -PUB [/move_base/local_costmap/obstacle_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,751: publisherUpdate[/tf] -> http://3ff6fdf48960:46377/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,752: -SUB [/map_updates] /rviz http://3ff6fdf48960:46377/
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,752: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,752: publisherUpdate[/tf] -> http://3ff6fdf48960:46377/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,753: -PUB [/move_base/local_costmap/obstacle_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,753: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:46377/']
+[rosmaster.master][INFO] 2020-06-16 20:39:00,753: -SUB [/move_base/MpnetLocalPlanner/global_plan] /rviz http://3ff6fdf48960:46377/
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,754: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,754: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ ['http://3ff6fdf48960:46377/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,755: -PUB [/move_base/local_costmap/inflation_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,755: publisherUpdate[/tf_static] -> http://3ff6fdf48960:46377/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,755: publisherUpdate[/move_base/goal] -> http://3ff6fdf48960:36595/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,755: -SUB [/move_base/MpnetLocalPlanner/local_plan] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,756: publisherUpdate[/tf_static] -> http://3ff6fdf48960:46377/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,757: publisherUpdate[/move_base/goal] -> http://3ff6fdf48960:36595/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,757: -PUB [/move_base/local_costmap/inflation_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,758: -SUB [/move_base_simple/goal] /rviz http://3ff6fdf48960:46377/
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,758: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,759: -PUB [/move_base/local_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,759: publisherUpdate[/move_base/global_costmap/footprint] -> http://3ff6fdf48960:36595/ []
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,759: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,759: -SUB [/move_base/local_costmap/costmap] /rviz http://3ff6fdf48960:46377/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,760: publisherUpdate[/move_base/global_costmap/footprint] -> http://3ff6fdf48960:36595/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,760: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,760: -PUB [/move_base/local_costmap/costmap] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,761: publisherUpdate[/rosout] -> http://3ff6fdf48960:34355/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-16 20:39:00,762: -SUB [/move_base/local_costmap/costmap_updates] /rviz http://3ff6fdf48960:46377/
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,762: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,762: publisherUpdate[/move_base_simple/goal] -> http://3ff6fdf48960:36595/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,762: -PUB [/move_base/local_costmap/costmap_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,763: publisherUpdate[/move_base_simple/goal] -> http://3ff6fdf48960:46377/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,763: publisherUpdate[/move_base_simple/goal] -> http://3ff6fdf48960:36595/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,764: -SERVICE [/rviz/get_loggers] /rviz rosrpc://3ff6fdf48960:40869
+[rosmaster.master][INFO] 2020-06-16 20:39:00,764: publisherUpdate[/move_base_simple/goal] -> http://3ff6fdf48960:46377/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,765: -PUB [/move_base/local_costmap/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,765: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,766: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://3ff6fdf48960:40869
+[rosmaster.master][INFO] 2020-06-16 20:39:00,766: publisherUpdate[/move_base/local_costmap/footprint] -> http://3ff6fdf48960:36595/ []
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,767: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,767: -PUB [/move_base/local_costmap/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,768: publisherUpdate[/move_base/local_costmap/footprint] -> http://3ff6fdf48960:36595/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-16 20:39:00,768: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://3ff6fdf48960:40869
+[rosmaster.master][INFO] 2020-06-16 20:39:00,768: -PUB [/move_base/MpnetLocalPlanner/local_plan] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,769: -SERVICE [/rviz/load_config] /rviz rosrpc://3ff6fdf48960:40869
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,770: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:00,770: -PUB [/move_base/MpnetLocalPlanner/global_plan] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,770: -SERVICE [/rviz/save_config] /rviz rosrpc://3ff6fdf48960:40869
+[rosmaster.master][INFO] 2020-06-16 20:39:00,771: -PUB [/move_base/collision_costmap/static_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,771: -PUB [/move_base/collision_costmap/static_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,772: -PUB [/move_base/collision_costmap/obstacle_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,772: -PUB [/move_base/collision_costmap/obstacle_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,773: -PUB [/move_base/collision_costmap/inflation_layer/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,773: -PUB [/move_base/collision_costmap/inflation_layer/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,773: -PUB [/move_base/collision_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,774: -PUB [/move_base/collision_costmap/costmap] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,774: -PUB [/move_base/collision_costmap/costmap_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,774: -PUB [/move_base/collision_costmap/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,775: -PUB [/move_base/collision_costmap/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,775: -PUB [/move_base/result] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,775: -PUB [/move_base/feedback] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,776: -PUB [/move_base/status] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,776: -PUB [/move_base/parameter_descriptions] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,776: -PUB [/move_base/parameter_updates] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,777: -SUB [/tf] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,777: -SUB [/tf_static] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,778: -SUB [/move_base_simple/goal] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,778: -SUB [/map] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,779: -SUB [/move_base/global_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,779: -SUB [/move_base/local_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,780: -SUB [/odom] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,780: -SUB [/move_base/collision_costmap/footprint] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,781: -SUB [/move_base/goal] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,781: -SUB [/move_base/cancel] /move_base http://3ff6fdf48960:36595/
+[rosmaster.master][INFO] 2020-06-16 20:39:00,782: -SERVICE [/move_base/get_loggers] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,783: -SERVICE [/move_base/set_logger_level] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,783: -SERVICE [/move_base/global_costmap/static_layer/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,783: -SERVICE [/move_base/global_costmap/obstacle_layer/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,784: -SERVICE [/move_base/global_costmap/inflation_layer/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,784: -SERVICE [/move_base/global_costmap/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,785: -SERVICE [/move_base/NavfnROS/make_plan] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,785: -SERVICE [/move_base/local_costmap/static_layer/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,786: -SERVICE [/move_base/local_costmap/obstacle_layer/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,786: -SERVICE [/move_base/local_costmap/inflation_layer/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,787: -SERVICE [/move_base/local_costmap/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,787: -SERVICE [/move_base/collision_costmap/static_layer/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,788: -SERVICE [/move_base/collision_costmap/obstacle_layer/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,788: -SERVICE [/move_base/collision_costmap/inflation_layer/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,789: -SERVICE [/move_base/collision_costmap/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,789: -SERVICE [/move_base/make_plan] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,789: -SERVICE [/move_base/clear_costmaps] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,790: -SERVICE [/move_base/set_parameters] /move_base rosrpc://3ff6fdf48960:46525
+[rosmaster.master][INFO] 2020-06-16 20:39:00,790: publisherUpdate[/move_base/collision_costmap/footprint] -> http://3ff6fdf48960:36595/ []
+[rosmaster.master][INFO] 2020-06-16 20:39:00,791: publisherUpdate[/move_base/collision_costmap/footprint] -> http://3ff6fdf48960:36595/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2020-06-16 20:39:00,791: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-16 20:39:01,563: -PUB [/rosout_agg] /rosout http://3ff6fdf48960:34355/
+[rosmaster.master][INFO] 2020-06-16 20:39:01,563: -SUB [/rosout] /rosout http://3ff6fdf48960:34355/
+[rosmaster.master][INFO] 2020-06-16 20:39:01,564: -SERVICE [/rosout/get_loggers] /rosout rosrpc://3ff6fdf48960:60697
+[rosmaster.master][INFO] 2020-06-16 20:39:01,564: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://3ff6fdf48960:60697
+[rosmaster.main][INFO] 2020-06-16 20:39:01,671: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-06-16 20:39:01,671: stopping master...
+[rospy.core][INFO] 2020-06-16 20:39:01,672: signal_shutdown [atexit]

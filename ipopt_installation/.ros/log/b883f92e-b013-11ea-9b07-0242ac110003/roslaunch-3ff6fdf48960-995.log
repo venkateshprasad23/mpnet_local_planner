@@ -1,0 +1,208 @@
+[roslaunch][INFO] 2020-06-16 20:55:33,510: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2020-06-16 20:55:33,515: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2020-06-16 20:55:33,515: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'mpnet_plan', 'simulate_mpnet.launch']
+[roslaunch][INFO] 2020-06-16 20:55:33,515: roslaunch env is {'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/project/devel/share/common-lisp', 'CUDA_VERSION': '10.1.243', 'ROS_PACKAGE_PATH': '/root/project/src:/opt/ros/melodic/share', 'HOME': '/root', 'CMAKE_PREFIX_PATH': '/root/project/devel:/opt/ros/melodic', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/roslaunch-3ff6fdf48960-995.log', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'CUDA_PKG_VERSION': '10-1=10.1.243-1', 'SHLVL': '1', 'NCCL_VERSION': '2.4.8', 'LD_LIBRARY_PATH': '/root/project/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NVIDIA_VISIBLE_DEVICES': 'all', 'ROS_MASTER_URI': 'http://localhost:11311', 'CUDNN_VERSION': '7.6.5.32', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PATH': '/opt/ros/melodic/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PKG_CONFIG_PATH': '/root/project/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,graphics', '_': '/opt/ros/melodic/bin/roslaunch', 'NVIDIA_REQUIRE_CUDA': 'cuda>=10.0 brand=tesla,driver>=384,driver<385', 'OLDPWD': '/root', 'HOSTNAME': '3ff6fdf48960', 'PWD': '/root/project', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2020-06-16 20:55:33,515: starting in server mode
+[roslaunch.parent][INFO] 2020-06-16 20:55:33,516: starting roslaunch parent run
+[roslaunch][INFO] 2020-06-16 20:55:33,516: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2020-06-16 20:55:33,659: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2020-06-16 20:55:33,659: loading config file /root/project/src/mpnet_local_planner/launch/simulate_mpnet.launch
+[roslaunch][INFO] 2020-06-16 20:55:33,694: Added node of type [map_server/map_server] in namespace [/]
+[roslaunch][INFO] 2020-06-16 20:55:33,747: Added node of type [robot_state_publisher/state_publisher] in namespace [/]
+[roslaunch][INFO] 2020-06-16 20:55:33,754: Added node of type [racecar_simulator/simulate] in namespace [/]
+[roslaunch][INFO] 2020-06-16 20:55:33,754: Added node of type [tf2_ros/static_transform_publisher] in namespace [/static_tf/]
+[roslaunch][INFO] 2020-06-16 20:55:33,766: Added node of type [move_base/move_base] in namespace [/]
+[roslaunch][INFO] 2020-06-16 20:55:33,767: Added node of type [rviz/rviz] in namespace [/]
+[roslaunch][INFO] 2020-06-16 20:55:33,767: ... selected machine [] for node of type [map_server/map_server]
+[roslaunch][INFO] 2020-06-16 20:55:33,767: ... selected machine [] for node of type [robot_state_publisher/state_publisher]
+[roslaunch][INFO] 2020-06-16 20:55:33,767: ... selected machine [] for node of type [racecar_simulator/simulate]
+[roslaunch][INFO] 2020-06-16 20:55:33,767: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2020-06-16 20:55:33,767: ... selected machine [] for node of type [move_base/move_base]
+[roslaunch][INFO] 2020-06-16 20:55:33,767: ... selected machine [] for node of type [rviz/rviz]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:33,768: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2020-06-16 20:55:33,768: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2020-06-16 20:55:33,768: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2020-06-16 20:55:33,768: starting parent XML-RPC server
+[roslaunch.server][INFO] 2020-06-16 20:55:33,768: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2020-06-16 20:55:33,768: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2020-06-16 20:55:33,768: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-06-16 20:55:33,769: Started XML-RPC server [http://3ff6fdf48960:44193/]
+[xmlrpc][INFO] 2020-06-16 20:55:33,769: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2020-06-16 20:55:33,780: started roslaunch server http://3ff6fdf48960:44193/
+[roslaunch.parent][INFO] 2020-06-16 20:55:33,781: ... parent XML-RPC server started
+[roslaunch][INFO] 2020-06-16 20:55:33,782: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:33,782: auto-starting new master
+[roslaunch][INFO] 2020-06-16 20:55:33,782: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2020-06-16 20:55:33,782: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:33,782: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:33,782: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2020-06-16 20:55:33,783: process[master]: starting os process
+[roslaunch][INFO] 2020-06-16 20:55:33,783: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/master.log']]
+[roslaunch][INFO] 2020-06-16 20:55:33,783: process[master]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2020-06-16 20:55:34,224: process[master]: started with pid [1008]
+[roslaunch][INFO] 2020-06-16 20:55:34,225: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:34,326: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:34,426: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:34,428: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:34,430: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2020-06-16 20:55:34,431: setting /run_id to b883f92e-b013-11ea-9b07-0242ac110003
+[roslaunch][INFO] 2020-06-16 20:55:34,432: setting /roslaunch/uris/host_3ff6fdf48960__44193' to http://3ff6fdf48960:44193/
+[roslaunch][INFO] 2020-06-16 20:55:34,434: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2020-06-16 20:55:34,434: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:34,434: process[rosout-1]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/project/devel/share/common-lisp', 'CUDA_VERSION': '10.1.243', 'HOME': '/root', 'PATH': '/opt/ros/melodic/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/root/project/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/roslaunch-3ff6fdf48960-995.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'CUDA_PKG_VERSION': '10-1=10.1.243-1', 'SHLVL': '1', 'NCCL_VERSION': '2.4.8', 'LD_LIBRARY_PATH': '/root/project/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NVIDIA_VISIBLE_DEVICES': 'all', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'CUDNN_VERSION': '7.6.5.32', 'ROS_PYTHON_VERSION': '2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/root/project/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/root/project/src:/opt/ros/melodic/share', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,graphics', '_': '/opt/ros/melodic/bin/roslaunch', 'DISPLAY': ':0', 'NVIDIA_REQUIRE_CUDA': 'cuda>=10.0 brand=tesla,driver>=384,driver<385', 'OLDPWD': '/root', 'HOSTNAME': '3ff6fdf48960', 'PWD': '/root/project', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2020-06-16 20:55:34,471: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2020-06-16 20:55:34,471: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:34,471: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:34,472: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2020-06-16 20:55:34,472: ... registered process [rosout-1]
+[roslaunch][INFO] 2020-06-16 20:55:34,472: process[rosout-1]: starting os process
+[roslaunch][INFO] 2020-06-16 20:55:34,472: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/rosout-1.log']]
+[roslaunch][INFO] 2020-06-16 20:55:34,472: process[rosout-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2020-06-16 20:55:34,917: process[rosout-1]: started with pid [1019]
+[roslaunch][INFO] 2020-06-16 20:55:34,917: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2020-06-16 20:55:34,917: load_parameters starting ...
+[roslaunch][INFO] 2020-06-16 20:55:34,941: ... load_parameters complete
+[roslaunch][INFO] 2020-06-16 20:55:34,942: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2020-06-16 20:55:34,942: ... preparing to launch node of type [map_server/map_server]
+[roslaunch][INFO] 2020-06-16 20:55:34,942: create_node_process: package[map_server] type[map_server] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:34,942: process[map_server-2]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/project/devel/share/common-lisp', 'CUDA_VERSION': '10.1.243', 'HOME': '/root', 'PATH': '/opt/ros/melodic/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/root/project/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/roslaunch-3ff6fdf48960-995.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'CUDA_PKG_VERSION': '10-1=10.1.243-1', 'SHLVL': '1', 'NCCL_VERSION': '2.4.8', 'LD_LIBRARY_PATH': '/root/project/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NVIDIA_VISIBLE_DEVICES': 'all', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'CUDNN_VERSION': '7.6.5.32', 'ROS_PYTHON_VERSION': '2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/root/project/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/root/project/src:/opt/ros/melodic/share', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,graphics', '_': '/opt/ros/melodic/bin/roslaunch', 'DISPLAY': ':0', 'NVIDIA_REQUIRE_CUDA': 'cuda>=10.0 brand=tesla,driver>=384,driver<385', 'OLDPWD': '/root', 'HOSTNAME': '3ff6fdf48960', 'PWD': '/root/project', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2020-06-16 20:55:34,943: process[map_server-2]: args[[u'/opt/ros/melodic/lib/map_server/map_server', '/root/project/src/racecar_simulator/maps/mymap.yaml', u'__name:=map_server']]
+[roslaunch][INFO] 2020-06-16 20:55:34,943: ... created process [map_server-2]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:34,943: ProcessMonitor.register[map_server-2]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:34,943: ProcessMonitor.register[map_server-2] complete
+[roslaunch][INFO] 2020-06-16 20:55:34,943: ... registered process [map_server-2]
+[roslaunch][INFO] 2020-06-16 20:55:34,943: process[map_server-2]: starting os process
+[roslaunch][INFO] 2020-06-16 20:55:34,943: process[map_server-2]: start w/ args [[u'/opt/ros/melodic/lib/map_server/map_server', '/root/project/src/racecar_simulator/maps/mymap.yaml', u'__name:=map_server', u'__log:=/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/map_server-2.log']]
+[roslaunch][INFO] 2020-06-16 20:55:34,943: process[map_server-2]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2020-06-16 20:55:35,388: process[map_server-2]: started with pid [1026]
+[roslaunch][INFO] 2020-06-16 20:55:35,388: ... successfully launched [map_server-2]
+[roslaunch][INFO] 2020-06-16 20:55:35,388: ... preparing to launch node of type [robot_state_publisher/state_publisher]
+[roslaunch][INFO] 2020-06-16 20:55:35,388: create_node_process: package[robot_state_publisher] type[state_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:35,388: process[robot_state_publisher-3]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/project/devel/share/common-lisp', 'CUDA_VERSION': '10.1.243', 'HOME': '/root', 'PATH': '/opt/ros/melodic/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/root/project/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/roslaunch-3ff6fdf48960-995.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'CUDA_PKG_VERSION': '10-1=10.1.243-1', 'SHLVL': '1', 'NCCL_VERSION': '2.4.8', 'LD_LIBRARY_PATH': '/root/project/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NVIDIA_VISIBLE_DEVICES': 'all', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'CUDNN_VERSION': '7.6.5.32', 'ROS_PYTHON_VERSION': '2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/root/project/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/root/project/src:/opt/ros/melodic/share', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,graphics', '_': '/opt/ros/melodic/bin/roslaunch', 'DISPLAY': ':0', 'NVIDIA_REQUIRE_CUDA': 'cuda>=10.0 brand=tesla,driver>=384,driver<385', 'OLDPWD': '/root', 'HOSTNAME': '3ff6fdf48960', 'PWD': '/root/project', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2020-06-16 20:55:35,389: process[robot_state_publisher-3]: args[[u'/opt/ros/melodic/lib/robot_state_publisher/state_publisher', u'__name:=robot_state_publisher']]
+[roslaunch][INFO] 2020-06-16 20:55:35,389: ... created process [robot_state_publisher-3]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:35,390: ProcessMonitor.register[robot_state_publisher-3]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:35,390: ProcessMonitor.register[robot_state_publisher-3] complete
+[roslaunch][INFO] 2020-06-16 20:55:35,390: ... registered process [robot_state_publisher-3]
+[roslaunch][INFO] 2020-06-16 20:55:35,390: process[robot_state_publisher-3]: starting os process
+[roslaunch][INFO] 2020-06-16 20:55:35,390: process[robot_state_publisher-3]: start w/ args [[u'/opt/ros/melodic/lib/robot_state_publisher/state_publisher', u'__name:=robot_state_publisher', u'__log:=/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/robot_state_publisher-3.log']]
+[roslaunch][INFO] 2020-06-16 20:55:35,390: process[robot_state_publisher-3]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2020-06-16 20:55:35,848: process[robot_state_publisher-3]: started with pid [1027]
+[roslaunch][INFO] 2020-06-16 20:55:35,848: ... successfully launched [robot_state_publisher-3]
+[roslaunch][INFO] 2020-06-16 20:55:35,849: ... preparing to launch node of type [racecar_simulator/simulate]
+[roslaunch][INFO] 2020-06-16 20:55:35,849: create_node_process: package[racecar_simulator] type[simulate] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:35,849: process[racecar_simulator-4]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/project/devel/share/common-lisp', 'CUDA_VERSION': '10.1.243', 'HOME': '/root', 'PATH': '/opt/ros/melodic/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/root/project/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/roslaunch-3ff6fdf48960-995.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'CUDA_PKG_VERSION': '10-1=10.1.243-1', 'SHLVL': '1', 'NCCL_VERSION': '2.4.8', 'LD_LIBRARY_PATH': '/root/project/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NVIDIA_VISIBLE_DEVICES': 'all', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'CUDNN_VERSION': '7.6.5.32', 'ROS_PYTHON_VERSION': '2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/root/project/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/root/project/src:/opt/ros/melodic/share', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,graphics', '_': '/opt/ros/melodic/bin/roslaunch', 'DISPLAY': ':0', 'NVIDIA_REQUIRE_CUDA': 'cuda>=10.0 brand=tesla,driver>=384,driver<385', 'OLDPWD': '/root', 'HOSTNAME': '3ff6fdf48960', 'PWD': '/root/project', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2020-06-16 20:55:35,851: process[racecar_simulator-4]: args[[u'/root/project/devel/lib/racecar_simulator/simulate', u'__name:=racecar_simulator']]
+[roslaunch][INFO] 2020-06-16 20:55:35,851: ... created process [racecar_simulator-4]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:35,851: ProcessMonitor.register[racecar_simulator-4]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:35,851: ProcessMonitor.register[racecar_simulator-4] complete
+[roslaunch][INFO] 2020-06-16 20:55:35,851: ... registered process [racecar_simulator-4]
+[roslaunch][INFO] 2020-06-16 20:55:35,852: process[racecar_simulator-4]: starting os process
+[roslaunch][INFO] 2020-06-16 20:55:35,852: process[racecar_simulator-4]: start w/ args [[u'/root/project/devel/lib/racecar_simulator/simulate', u'__name:=racecar_simulator', u'__log:=/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/racecar_simulator-4.log']]
+[roslaunch][INFO] 2020-06-16 20:55:35,852: process[racecar_simulator-4]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2020-06-16 20:55:36,309: process[racecar_simulator-4]: started with pid [1033]
+[roslaunch][INFO] 2020-06-16 20:55:36,309: ... successfully launched [racecar_simulator-4]
+[roslaunch][INFO] 2020-06-16 20:55:36,310: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2020-06-16 20:55:36,310: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:36,310: process[static_tf/base_to_laser_tf2-5]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/project/devel/share/common-lisp', 'CUDA_VERSION': '10.1.243', 'HOME': '/root', 'PATH': '/opt/ros/melodic/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/root/project/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/roslaunch-3ff6fdf48960-995.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'CUDA_PKG_VERSION': '10-1=10.1.243-1', 'SHLVL': '1', 'NCCL_VERSION': '2.4.8', 'LD_LIBRARY_PATH': '/root/project/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NVIDIA_VISIBLE_DEVICES': 'all', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'CUDNN_VERSION': '7.6.5.32', 'ROS_PYTHON_VERSION': '2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_NAMESPACE': '/static_tf', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/root/project/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/root/project/src:/opt/ros/melodic/share', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,graphics', '_': '/opt/ros/melodic/bin/roslaunch', 'DISPLAY': ':0', 'NVIDIA_REQUIRE_CUDA': 'cuda>=10.0 brand=tesla,driver>=384,driver<385', 'OLDPWD': '/root', 'HOSTNAME': '3ff6fdf48960', 'PWD': '/root/project', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2020-06-16 20:55:36,311: process[static_tf/base_to_laser_tf2-5]: args[[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0.1', '0.0', '0.30', '0.0', '0.0', '0.0', 'base_link', 'laser', u'__name:=base_to_laser_tf2']]
+[roslaunch][INFO] 2020-06-16 20:55:36,311: ... created process [static_tf/base_to_laser_tf2-5]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:36,311: ProcessMonitor.register[static_tf/base_to_laser_tf2-5]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:36,311: ProcessMonitor.register[static_tf/base_to_laser_tf2-5] complete
+[roslaunch][INFO] 2020-06-16 20:55:36,311: ... registered process [static_tf/base_to_laser_tf2-5]
+[roslaunch][INFO] 2020-06-16 20:55:36,311: process[static_tf/base_to_laser_tf2-5]: starting os process
+[roslaunch][INFO] 2020-06-16 20:55:36,312: process[static_tf/base_to_laser_tf2-5]: start w/ args [[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0.1', '0.0', '0.30', '0.0', '0.0', '0.0', 'base_link', 'laser', u'__name:=base_to_laser_tf2', u'__log:=/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/static_tf-base_to_laser_tf2-5.log']]
+[roslaunch][INFO] 2020-06-16 20:55:36,312: process[static_tf/base_to_laser_tf2-5]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2020-06-16 20:55:36,768: process[static_tf/base_to_laser_tf2-5]: started with pid [1040]
+[roslaunch][INFO] 2020-06-16 20:55:36,768: ... successfully launched [static_tf/base_to_laser_tf2-5]
+[roslaunch][INFO] 2020-06-16 20:55:36,768: ... preparing to launch node of type [move_base/move_base]
+[roslaunch][INFO] 2020-06-16 20:55:36,768: create_node_process: package[move_base] type[move_base] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:36,768: process[move_base-6]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/project/devel/share/common-lisp', 'CUDA_VERSION': '10.1.243', 'HOME': '/root', 'PATH': '/opt/ros/melodic/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/root/project/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/roslaunch-3ff6fdf48960-995.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'CUDA_PKG_VERSION': '10-1=10.1.243-1', 'SHLVL': '1', 'NCCL_VERSION': '2.4.8', 'LD_LIBRARY_PATH': '/root/project/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NVIDIA_VISIBLE_DEVICES': 'all', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'CUDNN_VERSION': '7.6.5.32', 'ROS_PYTHON_VERSION': '2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/root/project/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/root/project/src:/opt/ros/melodic/share', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,graphics', '_': '/opt/ros/melodic/bin/roslaunch', 'DISPLAY': ':0', 'NVIDIA_REQUIRE_CUDA': 'cuda>=10.0 brand=tesla,driver>=384,driver<385', 'OLDPWD': '/root', 'HOSTNAME': '3ff6fdf48960', 'PWD': '/root/project', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2020-06-16 20:55:36,769: process[move_base-6]: args[[u'/opt/ros/melodic/lib/move_base/move_base', u'__name:=move_base']]
+[roslaunch][INFO] 2020-06-16 20:55:36,769: ... created process [move_base-6]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:36,770: ProcessMonitor.register[move_base-6]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:36,770: ProcessMonitor.register[move_base-6] complete
+[roslaunch][INFO] 2020-06-16 20:55:36,770: ... registered process [move_base-6]
+[roslaunch][INFO] 2020-06-16 20:55:36,770: process[move_base-6]: starting os process
+[roslaunch][INFO] 2020-06-16 20:55:36,770: process[move_base-6]: start w/ args [[u'/opt/ros/melodic/lib/move_base/move_base', u'__name:=move_base', u'__log:=/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/move_base-6.log']]
+[roslaunch][INFO] 2020-06-16 20:55:36,770: process[move_base-6]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2020-06-16 20:55:37,224: process[move_base-6]: started with pid [1047]
+[roslaunch][INFO] 2020-06-16 20:55:37,225: ... successfully launched [move_base-6]
+[roslaunch][INFO] 2020-06-16 20:55:37,225: ... preparing to launch node of type [rviz/rviz]
+[roslaunch][INFO] 2020-06-16 20:55:37,225: create_node_process: package[rviz] type[rviz] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2020-06-16 20:55:37,225: process[rviz-7]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/root/project/devel/share/common-lisp', 'CUDA_VERSION': '10.1.243', 'HOME': '/root', 'PATH': '/opt/ros/melodic/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/root/project/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/roslaunch-3ff6fdf48960-995.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'CUDA_PKG_VERSION': '10-1=10.1.243-1', 'SHLVL': '1', 'NCCL_VERSION': '2.4.8', 'LD_LIBRARY_PATH': '/root/project/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NVIDIA_VISIBLE_DEVICES': 'all', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'CUDNN_VERSION': '7.6.5.32', 'ROS_PYTHON_VERSION': '2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/root/project/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/root/project/src:/opt/ros/melodic/share', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,graphics', '_': '/opt/ros/melodic/bin/roslaunch', 'DISPLAY': ':0', 'NVIDIA_REQUIRE_CUDA': 'cuda>=10.0 brand=tesla,driver>=384,driver<385', 'OLDPWD': '/root', 'HOSTNAME': '3ff6fdf48960', 'PWD': '/root/project', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2020-06-16 20:55:37,229: process[rviz-7]: args[[u'/opt/ros/melodic/lib/rviz/rviz', '-d', '/root/project/src/mpnet_local_planner/launch/mpnet_launch.rviz', u'__name:=rviz']]
+[roslaunch][INFO] 2020-06-16 20:55:37,229: ... created process [rviz-7]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:37,229: ProcessMonitor.register[rviz-7]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:37,229: ProcessMonitor.register[rviz-7] complete
+[roslaunch][INFO] 2020-06-16 20:55:37,229: ... registered process [rviz-7]
+[roslaunch][INFO] 2020-06-16 20:55:37,229: process[rviz-7]: starting os process
+[roslaunch][INFO] 2020-06-16 20:55:37,229: process[rviz-7]: start w/ args [[u'/opt/ros/melodic/lib/rviz/rviz', '-d', '/root/project/src/mpnet_local_planner/launch/mpnet_launch.rviz', u'__name:=rviz', u'__log:=/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/rviz-7.log']]
+[roslaunch][INFO] 2020-06-16 20:55:37,230: process[rviz-7]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2020-06-16 20:55:37,712: process[rviz-7]: started with pid [1053]
+[roslaunch][INFO] 2020-06-16 20:55:37,712: ... successfully launched [rviz-7]
+[roslaunch][INFO] 2020-06-16 20:55:37,712: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2020-06-16 20:55:37,713: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140258019215104)>
+[roslaunch.parent][INFO] 2020-06-16 20:55:37,713: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2020-06-16 20:55:37,713: spin
+[roslaunch][ERROR] 2020-06-16 20:55:45,803: [move_base-6] process has died [pid 1047, exit code -6, cmd /opt/ros/melodic/lib/move_base/move_base __name:=move_base __log:=/root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/move_base-6.log].
+log file: /root/.ros/log/b883f92e-b013-11ea-9b07-0242ac110003/move_base-6*.log
+[roslaunch.pmon][INFO] 2020-06-16 20:55:45,804: ProcessMonitor.unregister[move_base-6] starting
+[roslaunch.pmon][INFO] 2020-06-16 20:55:45,804: ProcessMonitor.unregister[move_base-6] complete
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,111: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140258019215104)>
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,115: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140258019215104)>
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,116: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140258019215104)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f905d8c6550>, <roslaunch.nodeprocess.LocalProcess object at 0x7f905d8c6690>, <roslaunch.nodeprocess.LocalProcess object at 0x7f905c65c1d0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f905c65c550>, <roslaunch.nodeprocess.LocalProcess object at 0x7f905c65c450>, <roslaunch.nodeprocess.LocalProcess object at 0x7f905c65c050>, <roslaunch.nodeprocess.LocalProcess object at 0x7f905c662fd0>]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,117: ProcessMonitor exit: killing rviz-7
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,117: ProcessMonitor exit: killing static_tf/base_to_laser_tf2-5
+[roslaunch][INFO] 2020-06-16 20:55:49,118: [rviz-7] killing on exit
+[roslaunch][INFO] 2020-06-16 20:55:49,119: [static_tf/base_to_laser_tf2-5] killing on exit
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,120: ProcessMonitor exit: killing robot_state_publisher-3
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,120: ProcessMonitor exit: killing racecar_simulator-4
+[roslaunch][INFO] 2020-06-16 20:55:49,121: process[rviz-7]: killing os process with pid[1053] pgid[1053]
+[roslaunch][INFO] 2020-06-16 20:55:49,122: process[static_tf/base_to_laser_tf2-5]: killing os process with pid[1040] pgid[1040]
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,122: ProcessMonitor exit: killing map_server-2
+[roslaunch][INFO] 2020-06-16 20:55:49,122: [robot_state_publisher-3] killing on exit
+[roslaunch][INFO] 2020-06-16 20:55:49,123: [racecar_simulator-4] killing on exit
+[roslaunch][INFO] 2020-06-16 20:55:49,125: [rviz-7] sending SIGINT to pgid [1053]
+[roslaunch][INFO] 2020-06-16 20:55:49,126: [static_tf/base_to_laser_tf2-5] sending SIGINT to pgid [1040]
+[roslaunch][INFO] 2020-06-16 20:55:49,127: [map_server-2] killing on exit
+[roslaunch][INFO] 2020-06-16 20:55:49,128: process[robot_state_publisher-3]: killing os process with pid[1027] pgid[1027]
+[roslaunch][INFO] 2020-06-16 20:55:49,128: process[racecar_simulator-4]: killing os process with pid[1033] pgid[1033]
+[roslaunch][INFO] 2020-06-16 20:55:49,129: [rviz-7] sent SIGINT to pgid [1053]
+[roslaunch][INFO] 2020-06-16 20:55:49,129: [static_tf/base_to_laser_tf2-5] sent SIGINT to pgid [1040]
+[roslaunch][INFO] 2020-06-16 20:55:49,130: process[map_server-2]: killing os process with pid[1026] pgid[1026]
+[roslaunch][INFO] 2020-06-16 20:55:49,130: [robot_state_publisher-3] sending SIGINT to pgid [1027]
+[roslaunch][INFO] 2020-06-16 20:55:49,131: [racecar_simulator-4] sending SIGINT to pgid [1033]
+[roslaunch][INFO] 2020-06-16 20:55:49,132: [map_server-2] sending SIGINT to pgid [1026]
+[roslaunch][INFO] 2020-06-16 20:55:49,132: [robot_state_publisher-3] sent SIGINT to pgid [1027]
+[roslaunch][INFO] 2020-06-16 20:55:49,133: [racecar_simulator-4] sent SIGINT to pgid [1033]
+[roslaunch][INFO] 2020-06-16 20:55:49,133: [map_server-2] sent SIGINT to pgid [1026]
+[roslaunch][INFO] 2020-06-16 20:55:49,332: process[static_tf/base_to_laser_tf2-5]: SIGINT killed with return value 0
+[roslaunch][INFO] 2020-06-16 20:55:49,334: process[robot_state_publisher-3]: SIGINT killed with return value 0
+[roslaunch][INFO] 2020-06-16 20:55:49,334: process[racecar_simulator-4]: SIGINT killed with return value 0
+[roslaunch][INFO] 2020-06-16 20:55:49,335: process[map_server-2]: SIGINT killed with return value 0
+[roslaunch][INFO] 2020-06-16 20:55:49,632: process[rviz-7]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,632: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2020-06-16 20:55:49,632: [rosout-1] killing on exit
+[roslaunch][INFO] 2020-06-16 20:55:49,633: process[rosout-1]: killing os process with pid[1019] pgid[1019]
+[roslaunch][INFO] 2020-06-16 20:55:49,633: [rosout-1] sending SIGINT to pgid [1019]
+[roslaunch][INFO] 2020-06-16 20:55:49,633: [rosout-1] sent SIGINT to pgid [1019]
+[roslaunch][INFO] 2020-06-16 20:55:49,833: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2020-06-16 20:55:49,834: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2020-06-16 20:55:49,834: [master] killing on exit
+[roslaunch][INFO] 2020-06-16 20:55:49,834: process[master]: killing os process with pid[1008] pgid[1008]
+[roslaunch][INFO] 2020-06-16 20:55:49,834: [master] sending SIGINT to pgid [1008]
+[roslaunch][INFO] 2020-06-16 20:55:49,834: [master] sent SIGINT to pgid [1008]
+[roslaunch][INFO] 2020-06-16 20:55:50,035: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2020-06-16 20:55:50,036: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2020-06-16 20:55:50,036: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2020-06-16 20:55:50,080: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2020-06-16 20:55:50,081: runner.stop()
+[roslaunch][INFO] 2020-06-16 20:55:50,081: shutting down processing monitor...
+[roslaunch][INFO] 2020-06-16 20:55:50,081: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140258019215104)>
+[roslaunch.pmon][INFO] 2020-06-16 20:55:50,082: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140258019215104)>
+[roslaunch][INFO] 2020-06-16 20:55:50,082: ... shutting down processing monitor complete
+[roslaunch][INFO] 2020-06-16 20:55:50,082: done
+[roslaunch.pmon][INFO] 2020-06-16 20:55:50,083: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140258019215104)>
+[rospy.core][INFO] 2020-06-16 20:55:50,083: signal_shutdown [atexit]

@@ -1,0 +1,11 @@
+[0m[ INFO] [1592341032.937445483]: rviz version 1.13.12[0m
+[0m[ INFO] [1592341032.937485906]: compiled against Qt version 5.9.5[0m
+[0m[ INFO] [1592341032.937491781]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1592341032.948850820]: Forcing OpenGl version 0.[0m
+[0m[ INFO] [1592341033.450616538]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1592341033.450697034]: OpenGl version: 4.6 (GLSL 4.6).[0m
+[0m[ INFO] [1592341033.760905083]: Creating 1 swatches[0m
+[0m[ INFO] [1592341033.761450526]: Creating 1 swatches[0m
+[0m[ INFO] [1592341041.232529833]: Setting pose: 1.578 2.377 1.571 [frame=map][0m
+[0m[ INFO] [1592341043.768841551]: Setting goal: Frame:map, Position(1.569, 3.053, 0.000), Orientation(0.000, 0.000, 0.695, 0.719) = Angle: 1.536
+[0m
